@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(255, 255, 0, 0.756);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap column;
+    padding: 10px;
+
+}
+form{
+    max-width: 1000px ;
+    padding: 20px;
+    border: 1px double;
+    border-radius: 20px;
+    font-family: cursive;
+
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.input-number{
+    padding: 2px 10px ;
+    width: 40%;
+
+    border: double 1px;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+button{
+    padding: 5px 15px;
+    border-radius: 8px;
+    font-size: large;
+    font-weight: bolder;
+
+    background-color: rgb(108, 214, 2);
+    color: azure;
+}
+
+#contenedorPizza{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+#contenedorPizza h2, p{
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+#contenedorPizza img{
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom:10px ;
+}
